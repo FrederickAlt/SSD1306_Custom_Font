@@ -1,6 +1,6 @@
 # SSD1306 Python Driver with Font Support
 
-This is a lightweight, self contained and efficient Micropython driver for SSD1306 OLED displays that support custom fonts. The repo is inspired by [packed-font](https://github.com/mark-gladding/packed-font) however the implementation is completely different. Unlike packed-font, this driver does not call i2c multiple times for every pixel that is drawn and converts the font into a more efficient, pre-paged format. This gives a speedup of factor ~50 if one uses the full screen to display text.
+This is a lightweight, self contained and efficient Micropython driver for SSD1306 OLED displays that supports custom fonts. The repo is inspired by [packed-font](https://github.com/mark-gladding/packed-font) however the implementation is completely different. Unlike packed-font, this driver calls i2c only once the buffer is ready to be drawn on screen and converts the font into a more efficient, pre-paged format. This gives a speedup of factor ~50 if one uses the full screen to display text.
 
 ## Installation
 
