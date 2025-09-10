@@ -7,6 +7,7 @@ This is a lightweight, self contained and efficient Micropython driver for SSD13
 In any case you need to copy `SSD1306_Custom_Font.py` to the root or `/lib` directory of your MCU.
 
 If you want to use `convert_font.py` you will need to have `pillow` installed. This can be done via `pip install pillow`. 
+
 ---
 ## Usuage
 
