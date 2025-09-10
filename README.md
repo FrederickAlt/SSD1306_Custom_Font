@@ -38,7 +38,7 @@ If you want to use `convert_font.py` you will need to have `pillow` installed. T
 ```
 python convert_font.py DejaVuSans 12
 ```
-where 12 is the desired pixel height on the SSD1306. This should run out of the box on most OS and output a file `DejaVuSans12.pf`. In case you want to know what fonts exist on you system, run `python list_fonts.py`. Then you can run `convert_font.py` with the listed names. Alternatively you can download any *.ttf* file and put it in the same directory as the script. Then run `convert_font.py` and give the basename as the argument.
+where 12 is the desired pixel height on the SSD1306. This should run out of the box on most OS and output a file `DejaVuSans12.pf` that you can use on your device to display *DejaVuSans* in 12 pixel height using `SSD1306_Custom_Font.py`. In case you want to know what fonts exist on you system, run `python list_fonts.py`. Then you can run `convert_font.py` with the listed names. Alternatively you can download any *.ttf* file and put it in the same directory as the script. Then run `convert_font.py` and give the basename as the argument.
 
 ---
 
